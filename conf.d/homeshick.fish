@@ -1,6 +1,8 @@
-if test -d ~/.homesick/repos/homeshick/
-  source ~/.homesick/repos/homeshick/homeshick.fish
-  source ~/.homesick/repos/homeshick/completions/homeshick.fish
+if not test -e ~/.config/fish/functions/homeshick.fish
+  ln -s ~/.homesick/repos/homeshick/homeshick.fish ~/.config/fish/functions/homeshick.fish
+end
+if not test -e ~/.config/fish/completions/homeshick.fish
+  ln -s ~/.homesick/repos/homeshick/completions/homeshick.fish ~/.config/fish/completions/homeshick.fish
 end
 
 function homeshick_install --on-event homeshick_install
