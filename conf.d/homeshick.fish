@@ -19,4 +19,5 @@ function homeshick_uninstall --on-event homeshick_uninstall
   if test -d ~/.homesick/repos/homeshick/
     rm -rf ~/.homesick/repos/homeshick/
   end
+  rm ~/.config/fish/functions/homeshick.fish ~/.config/fish/completions/homeshick.fish
 end

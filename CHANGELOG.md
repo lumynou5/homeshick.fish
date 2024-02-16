@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2024-02-16
+### Fixed
+- Symbolic links are removed when uninstall now.
+
 ## [1.0.1] - 2024-02-16
 ### Changed
 - Uses symbolic links instead of sourcing the scripts to improve
@@ -10,5 +14,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - First release.
 
+[1.0.2]: https://github.com/lumynou5/homeshick.fish/releases/tag/v1.0.2
 [1.0.1]: https://github.com/lumynou5/homeshick.fish/releases/tag/v1.0.1
 [1.0.0]: https://github.com/lumynou5/homeshick.fish/releases/tag/v1.0.0
