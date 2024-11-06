@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+### Fixed
+- Use `$__fish_config_dir` instead of hardcoded path to the configuration
+  directory.
+
 ## [1.0.2] - 2024-02-16
 ### Fixed
 - Symbolic links are removed when uninstall now.
