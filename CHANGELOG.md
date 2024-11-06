@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [2.0.0] - 2024-11-06
 ### Fixed
 - Use `$__fish_config_dir` instead of hardcoded path to the configuration
   directory.
@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - First release.
 
+[2.0.0]: https://github.com/lumynou5/homeshick.fish/releases/tag/v2.0.0
 [1.0.2]: https://github.com/lumynou5/homeshick.fish/releases/tag/v1.0.2
 [1.0.1]: https://github.com/lumynou5/homeshick.fish/releases/tag/v1.0.1
 [1.0.0]: https://github.com/lumynou5/homeshick.fish/releases/tag/v1.0.0
